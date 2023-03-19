@@ -4,7 +4,6 @@ import streamlit as st
 import requests
 
 
-
 def fatch_poster(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=a0f9c9f8f7bc2d0af1b94eef3e178475&language=en-US'.format(movie_id))
     data = response.json()
