@@ -1,4 +1,6 @@
 #  Movie Recommender App - README
+## Update
+- ⚠️ Heroku has discontinued support for free Dynos, so the old Domain similar-movie-recommender-sys.herokuapp.com/ has stopped working ⚠️
 
 
 ## About
@@ -13,12 +15,11 @@
 - Open Movie-Recommender-App folder
 - Paste this command in terminal `pip install -r requirements.txt` 
 - Open python notebook generate model
-- Give path to model in app.py
+- Give path to model in `app.py`
 - Run command `streamlit run app.py`
 
 
-![movie](https://github.com/om-mapari/proctor-vision-extension/blob/master/gifs%20images/dashboard-op.gif)
+![movie](https://github.com/om-mapari/Movie-Recommender-App/blob/master/Gif/movie.gif?raw=true)
 
 
-⚠️ Heroku has discontinued support for free Dynos, so the old Domain similar-movie-recommender-sys.herokuapp.com/ has stopped working ⚠️
 
